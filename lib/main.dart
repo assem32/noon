@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pro/login/login.dart';
 import 'package:pro/login_way/login_way.dart';
+import 'package:pro/payment/payment.dart';
 import 'package:pro/profile/profile.dart';
 import 'package:pro/register/register.dart';
 import 'package:pro/settings/settings.dart';
+import 'package:pro/subscribtion/subscribtion.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: Subscription(),
     );
   }
 }
