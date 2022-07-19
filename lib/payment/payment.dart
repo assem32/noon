@@ -31,7 +31,7 @@ class Payment extends StatelessWidget {
             MaterialButton(
               color: Color(0xff616161),
               onPressed: () {},
-              child: Text('Buy Now'),
+              child: Text('Buy Now',style: TextStyle(color: Colors.white),),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 22.0),
